@@ -42,6 +42,11 @@ header {
     font-weight: bolder;
 }
 
+.header-bottom .header-text p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
 .header-text, .img-placeholder {
     flex: 1 1 0;
     margin: 50px;
@@ -84,6 +89,28 @@ header {
 }
 .quote-section{
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 75px 275px;
+}
+
+.quote-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+    font-weight: lighter;
+}
+
+.quoter {
+    align-self: end;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .sign-up, .sign-up-button, .header-text button {
